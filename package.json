@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"start": "node server.js",
+		"start": "nodemon server.js",
 		"url": "git+https://github.com/tjackreece/restaurant-scout-server.git"
 	},
 	"author": "",
