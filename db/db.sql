@@ -4,9 +4,9 @@ CREATE TABLE reviews (
     name VARCHAR(50) NOT NULL,
     review TEXT NOT NULL,
     rating INT NOT NULL check(rating >= 1 and rating <=5)
-); 
+);
 INSERT INTO reviews ( restaurant_id, name, review, rating) values (1,'james', 'ITS OKAY', 3);
-INSERT INTO restaurants ( name, location, price_range) values ('Pizza Hut', 'Chicago', 3);
+InSERT INTO restaurants ( name, location, price_range) values ('Pizza Hut', 'Chicago', 3);
 INSERT INTO restaurants ( name, location, price_range) values ('Wendys', 'Denver', 3);
 INSERT INTO restaurants ( name, location, price_range) values ('Burger King', 'Louisiana', 3);
 

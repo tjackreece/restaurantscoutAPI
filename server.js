@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Get all Restaurantsn
+// Get all Restaurants
 app.get("/api/v1/restaurants", async (req, res) => {
 	try {
 		//const results = await db.query("select * from restaurants");
